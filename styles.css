@@ -4,18 +4,47 @@
 
 
 /* nav bar styling: */
-.dropdown {
+.navbar {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.navbar a {
+    display: block;
+    padding: 12px 25px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background-color: #111;
+    color: white;
+}
+.navbar a.active {
+    background-color: #4CAF50;
+}
+.dropbtn {
+    background-color: #333;
+    color: white;
+    padding: 12px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown {    
     float: left;
     overflow: hidden;
 }
-
 .diff-dreamBoards {
     display: none;
     position: absolute;
+    background-color: #333;
+    min-width: 121px;
 }
-
 .dropdown:hover .diff-dreamBoards {
     display: block;
-} 
+}
 
 /* content styling: */
