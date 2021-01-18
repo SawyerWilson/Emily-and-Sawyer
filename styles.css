@@ -2,10 +2,15 @@
 
 /* title styling: */
 
+h1 {
+    color: cornflowerblue;
+    text-align: center;
+}
 
 /* nav bar styling: */
 .navbar {
     display: flex;
+    text-align: center;
     margin: 0;
     padding: 0;
     overflow: hidden;
