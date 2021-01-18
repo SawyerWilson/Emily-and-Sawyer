@@ -1,0 +1,21 @@
+/* document that holds css styling code that applies to all pages of the website */
+
+/* title styling: */
+
+
+/* nav bar styling: */
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.diff-dreamBoards {
+    display: none;
+    position: absolute;
+}
+
+.dropdown:hover .diff-dreamBoards {
+    display: block;
+} 
+
+/* content styling: */
