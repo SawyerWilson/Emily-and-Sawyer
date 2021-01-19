@@ -1,10 +1,25 @@
 /* document that holds css styling code that applies to all pages of the website */
 
+/* page styling: */
+
+body {
+    background-color: #FFF6ED;
+    font-family: 'Halant', serif;
+    font-weight: 400;
+}
+
+main {
+    color: #C69682;
+}
+
 /* title styling: */
 
 h1 {
-    color: cornflowerblue;
+    color: #425F2f;
     text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-weight: 400;
+    font-size: 300%;
 }
 
 /* nav bar styling: */
@@ -14,7 +29,12 @@ h1 {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #EAC8BF;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 3px
 }
 .navbar a {
     display: block;
@@ -22,21 +42,31 @@ h1 {
     color: white;
     text-align: center;
     text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 3px
 }
 .navbar a:hover {
-    background-color: #111;
+    background-color: #7E9F82;
     color: white;
 }
 .navbar a.active {
-    background-color: #4CAF50;
+    background-color: #7E9F82;
 }
 .dropbtn {
-    background-color: #333;
+    background-color: #EAC8BF;
     color: white;
     padding: 12px;
     font-size: 15px;
     border: none;
     cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 3px
 }
 .dropdown {    
     float: left;
@@ -45,7 +75,7 @@ h1 {
 .diff-dreamBoards {
     display: none;
     position: absolute;
-    background-color: #333;
+    background-color: #EAC8BF;
     min-width: 121px;
 }
 .dropdown:hover .diff-dreamBoards {
