@@ -1,42 +1,39 @@
 /* document that holds css styling code that applies to all pages of the website */
 
-/* page styling: */
-
-body {
-    background-color: #FFF6ED;
-    font-family: 'Halant', serif;
-    font-weight: 400;
-}
-
-main {
-    color: #C69682;
-}
-
 /* title styling: */
 
 h1 {
-    color: #425F2f;
+    color: white;
     text-align: center;
     font-family: 'Satisfy', cursive;
     font-weight: 400;
     font-size: 300%;
+    background-color: #7E9F82;
+    margin-top: 0px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+header {
+    background-color: #7E9F82;
 }
 
 /* nav bar styling: */
-.navbar {
+nav {
     display: flex;
+    justify-content: center;
     text-align: center;
-    margin: 0;
-    padding: 0;
+    padding-bottom: 20px;
+    margin-top: 10px;
     overflow: hidden;
-    background-color: #EAC8BF;
+    background-color: #7E9F82;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 14px;
     letter-spacing: 3px
 }
-.navbar a {
+nav a {
     display: block;
     padding: 12px 25px;
     color: white;
@@ -48,15 +45,18 @@ h1 {
     font-size: 14px;
     letter-spacing: 3px
 }
-.navbar a:hover {
-    background-color: #7E9F82;
+nav a:hover {
+    background-color: #425F2F;
     color: white;
 }
-.navbar a.active {
-    background-color: #7E9F82;
+/* nav a.active {
+    background-color: #EAC8BF;
+} */
+nav .active {
+    background-color: #EAC8BF;
 }
 .dropbtn {
-    background-color: #EAC8BF;
+    background-color: #7E9F82;
     color: white;
     padding: 12px;
     font-size: 15px;
@@ -68,6 +68,9 @@ h1 {
     font-size: 14px;
     letter-spacing: 3px
 }
+.dropbtn:hover {
+    background-color: #425F2F;
+}
 .dropdown {    
     float: left;
     overflow: hidden;
@@ -75,11 +78,34 @@ h1 {
 .diff-dreamBoards {
     display: none;
     position: absolute;
-    background-color: #EAC8BF;
-    min-width: 121px;
+    background-color: #7E9F82;
+    min-width: 176px;
 }
 .dropdown:hover .diff-dreamBoards {
     display: block;
 }
 
-/* content styling: */
+/* page styling: */
+body {
+    background-color: #7E9F82;
+    font-family: 'Halant', serif;
+    font-weight: 400;
+    margin: 0px;
+}
+main {
+    background-color: #fff9f2;
+    color: #C69682;
+    padding: 20px 50px 75px 50px;
+}
+
+/* footer styling */
+footer {
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+hr {
+    width: 5%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
