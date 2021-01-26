@@ -148,6 +148,12 @@ hr {
     border: green;
 }
 
+/* content */
+h3 {
+    text-align: center;
+    font-family: 'Satisfy';
+}
+
 /* circles on timeline ruler */
 .container::after {
     content: '';
@@ -207,9 +213,22 @@ hr {
 
 /* the actual content */
 .content {
+    display: flex;
     padding: 20px 30px;
     background-color: white;
     position: relative;
     border: medium solid #EAC8BF;
     border-radius: 6px;
+}
+
+.timeline_picture {
+    margin-right: 30px;
+    margin-top: 9px;
+    margin-bottom: 5px;
+}
+
+#horizontal {
+    margin-left: 10px;
+    margin-right: -10px;
+    margin-top: 30px;
 }
