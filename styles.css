@@ -88,6 +88,10 @@ nav .active {
 }
 
 /* page styling: */
+p {
+    line-height: 2;
+}
+
 body {
     background-color: #7E9F82;
     font-family: 'Halant', serif;
@@ -97,7 +101,7 @@ body {
 main {
     background-color: #fff9f2;
     color: #C69682;
-    padding: 20px 50px 75px 50px;
+    padding: 20px 50px 50px 50px;
 }
 .pictures img {
     margin: 2px;
